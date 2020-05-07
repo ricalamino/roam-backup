@@ -27,6 +27,8 @@ const generateExport = async () => {
 
     console.log("Logging into Roam");
 
+    await page.waitFor(10000);
+
     await page.focus('[name="email"]');
     await page.keyboard.type(process.env.ROAM_EMAIL);
 
@@ -35,7 +37,7 @@ const generateExport = async () => {
 
     await page.$eval(".bp3-button", el => el.click());
 
-    await page.waitFor(5000);
+    await page.waitFor(15000);
 
     console.log("Successfully logged in");
 

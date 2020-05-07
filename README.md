@@ -47,6 +47,7 @@ _Don't worry! Your Roam and AWS credentials will be secure. GitHub [Secrets](htt
 #### 5. Make a commit. It can be any commit, but this will start the process and trigger workflows.
 
 Congrats! 🎉 You've successfully automated the backup of your brain 🧠. Now go write about it in today's Daily Note!
+Doing....
 
 _NOTE: This is still fairly WIP, and this is my first project using Puppeteer, so it may be a little buggy._
 

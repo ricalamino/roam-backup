@@ -42,10 +42,10 @@ const generateExport = async () => {
     console.log("Successfully logged in");
 
     await page.waitForSelector(
-      ".flex-h-box > div > .bp3-popover-wrapper > .bp3-popover-target > .bp3-small"
+      ".flex-h-box > div > .bp3-popover-wrapper > .bp3-popover-target > .bp3-popover-wrapper > .bp3-popover-target > .bp3-small"
     );
     await page.click(
-      ".flex-h-box > div > .bp3-popover-wrapper > .bp3-popover-target > .bp3-small"
+      ".flex-h-box > div > .bp3-popover-wrapper > .bp3-popover-target > .bp3-popover-wrapper > .bp3-popover-target > .bp3-small"
     );
 
     console.log("Opening Export menu");

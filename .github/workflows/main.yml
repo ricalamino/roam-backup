@@ -24,4 +24,4 @@ jobs:
           AWS_BUCKET_NAME: ${{ secrets.awsBucketName }}
           AWS_ACCESS_KEY_ID: ${{ secrets.awsAccessKeyId }}
           AWS_ACCESS_KEY_SECRET: ${{ secrets.awsAccessKeySecret }}
-          ROAM_FULL_URL: ${{ secrets.roamFullURL }}
+          ROAM_DB: ${{ secrets.roamDB }}

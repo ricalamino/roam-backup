@@ -23,7 +23,8 @@ const generateExport = async () => {
       downloadPath: process.cwd()
     });
 
-    await page.goto("https://roamresearch.com/#/app/Rica");
+    //await page.goto("https://roamresearch.com/#/app/Rica");
+    await page.goto(process.env.ROAM_FULL_URL);
 
     console.log("Logging into Roam");
 

@@ -23,7 +23,7 @@ const generateExport = async () => {
       downloadPath: process.cwd()
     });
 
-    await page.goto(process.env.ROAM_FULL_URL); // Put in secrets your DB URL https://roamresearch.com/#/app/<YOUR_DB_NAME>
+    await page.goto('https://roamresearch.com/#/app/' + process.env.ROAM_DB); // Put in secrets your Roam DB https://roamresearch.com/#/app/<ROAM_DB>
 
     console.log("Logging into Roam");
 

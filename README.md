@@ -41,7 +41,7 @@ Go to your Github repository's Settings tab, and click on Secrets section on the
 - `awsBucketName`
 - `awsAccessKeyId`
 - `awsAccessKeySecret`
-- `roamFullURL`
+- `roamDB`
 
 _Don't worry! Your Roam and AWS credentials will be secure. GitHub [Secrets](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) are encrypted, and provide a convenient methodology for storing secure data in repositories._
 
